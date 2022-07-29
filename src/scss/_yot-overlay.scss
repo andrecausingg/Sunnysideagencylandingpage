@@ -1,0 +1,36 @@
+.yot-overlay-header-1{
+    display: none;
+}
+
+.yot-overlay-header-2{
+    position: fixed;
+    top: 135px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0px 24px;
+    background-color: $yot-white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    span{
+        color: $yot-dark-grayish-ble;
+    }
+
+    button{
+        background-color: $yot-yellow;
+    }
+}
+
+.yot-arrow-top:after{
+    position: absolute;
+    top: -10px;
+    right:0;
+    content:"";
+    display:block;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid $yot-white; 
+}

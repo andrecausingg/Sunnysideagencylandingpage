@@ -1,0 +1,14 @@
+.yot-btn{
+    border:none;
+    display:inline-block;
+    padding:16px 24px;
+    cursor:pointer;
+    background-color:$yot-white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.yot-btn:hover{
+    background-color: #6FCEFF;
+    color: $yot-white;
+}

@@ -1,0 +1,29 @@
+// Visibility Hide on Mobile
+.yot-hide-for-mobile {
+    @include breakpoint-down(large-laptop) {
+        display: none !important;
+    }
+}
+  
+// Visibility Hide on Desktop
+.yot-hide-for-desktop {
+    @include breakpoint-up(large-laptop) {
+        display: none !important;
+    }
+}
+
+
+// Title unique font
+.title-font-fraunces{
+    font-family: 'Fraunces', serif;
+}
+
+.cherry-container,.orange-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.cherry-content,.orange-content{
+    position: absolute;
+    bottom: 80px;
+}

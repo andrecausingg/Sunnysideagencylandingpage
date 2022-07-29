@@ -1,0 +1,53 @@
+/* 576px */
+@media only screen and (min-width: 36em){  /* Small devices (portrait tablets and large phones)*/
+
+}
+                                /* 768px */
+@media only screen and (min-width: 48em){ /* Medium devices (landscape tablets) */
+    .yot-hero{
+        background-image: url('/src/images/desktop/image-header.jpg') !important;
+        min-height:50rem !important
+    }
+
+    .egg-container,.cup-container,.cherry-container,.orange-container{
+        display: block !important;
+    }
+
+    .egg-container{
+        img{
+            content: url("/src/images/desktop/image-transform.jpg");
+        }
+    }
+
+    .cup-container{
+        img{
+            content: url("/src/images/desktop/image-stand-out.jpg");
+        }
+    }
+
+    .cherry-container{
+        img{
+            content: url("/src/images/desktop/image-graphic-design.jpg");
+        }
+    }
+
+    .orange-container{
+        img{
+            content: url("/src/images/desktop/image-photography.jpg");
+        }
+    }
+}
+
+                                /* 992px */
+@media only screen and (min-width: 62em){ /* Large devices (laptops/desktops) */
+
+}
+
+                                /* 1200px */
+@media only screen and (min-width: 75em){  /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+}
+                                /* 1400px */
+@media only screen and (min-width: 87.5em){ /* Tv */
+
+}
