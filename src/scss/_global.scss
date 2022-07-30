@@ -27,3 +27,25 @@
     position: absolute;
     bottom: 80px;
 }
+
+// hover icon
+.hoverIcon{
+    color: $yot-desaturated-cyan;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.hoverIcon:hover{
+    color: $yot-white;
+}
+
+// hover navlinks
+.hover-links{
+    color: $yot-desaturated-cyan;
+    cursor: pointer;
+}
+
+.hover-links:hover{
+    color: $yot-desaturated-cyan;
+    color: $yot-white;
+}

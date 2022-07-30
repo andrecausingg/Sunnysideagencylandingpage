@@ -96,6 +96,26 @@
   bottom: 80px;
 }
 
+.hoverIcon {
+  color: hsl(167deg, 40%, 24%);
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.hoverIcon:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.hover-links {
+  color: hsl(167deg, 40%, 24%);
+  cursor: pointer;
+}
+
+.hover-links:hover {
+  color: hsl(167deg, 40%, 24%);
+  color: hsl(0deg, 0%, 100%);
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -372,6 +392,10 @@ img {
 
 .yot-content-space-padding-tb-200 {
   padding: 12.5rem 0rem;
+}
+
+.yot-cursor-pointer {
+  cursor: pointer;
 }
 
 .yot-flex {
